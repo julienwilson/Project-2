@@ -1,0 +1,26 @@
+.background    { background-image: url("images/space.jpg"); background-size: auto; background-repeat: repeat;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(230, 0, 0); background-image: url("images/fireball.gif"); background-size: 20px 20px; }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); background-image: url("images/coin.gif"); background-size: 15px 15px; }
+.trophy { background: rgb(0, 153, 51); background-image: url("images/trophy.gif"); background-size: 24px 24px; }
+.boots  { background: rgb(255, 153, 0); background-image: url("images/lightning.gif"); background-size: 12px 12px; }
+.player { background: rgb(0, 115, 230); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(137, 159, 190);
+}
+.won .player {
+  box-shadow: -4px -7px 8px rgb(52, 166, 251), 4px -7px 8px rgb(52, 166, 251);
+}
